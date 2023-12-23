@@ -11,8 +11,17 @@
     <div id="main-container">
         <h1>Etch-a-Sketch</h1>
         <div id="box-container"></div>
-        <div id="slider-container">
-            <input type="range" min="9" max="900" value="18" class="slider" id="range-slider" oninput="divBoxesSize()">
+        <div id="settings">
+            <input id="color-picker" type="color" value="#333333">
+            <ul>
+                <li><button>Color Mode</button></li>
+                <li><button>Rainbow</button></li>
+                <li><button>Eraser</button></li>
+                <li><button>Clear</button></li>
+            </ul>
+            <div id="slider-container">
+                <input type="range" min="2" max="32" value="8" class="slider" id="range-slider" oninput="createGridSize()">
+            </div>
         </div>
     </div>
 </body>
