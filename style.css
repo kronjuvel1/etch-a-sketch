@@ -1,0 +1,61 @@
+* {
+    outline: solid firebrick 2px;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main-container {
+    height: 95vh;
+    width: 40vw;
+    border-radius: 15px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#box-container {
+    display: flex;
+    flex-flow: wrap row;
+    overflow: hidden;
+    justify-content: center;
+
+    padding: 0;
+    margin: 1rem;
+    min-width: 37rem;
+    max-width: 37rem;
+    min-height: 37rem;
+    max-height: 37rem;
+}
+
+#slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    height: 2rem;
+    width: 3rem;
+    margin: 0;
+    background-color: lightblue;
+}

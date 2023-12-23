@@ -8,6 +8,12 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <div id="main-container">
+        <h1>Etch-a-Sketch</h1>
+        <div id="box-container"></div>
+        <div id="slider-container">
+            <input type="range" min="9" max="900" value="18" class="slider" id="range-slider" oninput="divBoxesSize()">
+        </div>
+    </div>
 </body>
 </html>
