@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="./script.js" defer></script>
 </head>
+
 <body>
     <div id="main-container">
         <h1>Etch-a-Sketch</h1>
         <div id="box-container"></div>
         <div id="settings">
-            <input id="color-picker" type="color" value="#333333">
             <ul>
-                <li><button>Color Mode</button></li>
-                <li><button>Rainbow</button></li>
-                <li><button>Eraser</button></li>
-                <li><button>Clear</button></li>
+                <li><button class="btn">Color Mode</button></li>
+                <li><button class="btn">Rainbow</button></li>
+                <li><input id="color-picker" type="color" value="#333333"></li>
+                <li><button class="btn">Eraser</button></li>
+                <li><button class="btn">Clear</button></li>
             </ul>
             <div id="slider-container">
-                <input type="range" min="2" max="32" value="8" class="slider" id="range-slider" oninput="createGridSize()">
+                <input type="range" min="1" max="32" value="29" class="slider" id="range-slider"
+                    oninput="createGridSize()">
             </div>
         </div>
     </div>
 </body>
+
 </html>
