@@ -1,6 +1,10 @@
 # Etch-a-Sketch Website
 Welcome to the Etch-a-Sketch website! This interactive web application allows you to create beautiful drawings and patterns with just a few clicks. Whether you want to unleash your creativity or simply relax, Etch-a-Sketch has you covered.
 
+![image](https://github.com/kronjuvel1/etch-a-sketch/assets/98591107/172d9fd9-cd86-43d3-bc25-7832c97f059b)
+![image](https://github.com/kronjuvel1/etch-a-sketch/assets/98591107/ef121b90-c29b-49d9-b03b-4bef423f26d3)
+
+
 ## Features
 - Grid Drawing: Create intricate designs on a customizable grid.
 - Color Modes: Choose between a solid color, rainbow, or an eraser mode.
