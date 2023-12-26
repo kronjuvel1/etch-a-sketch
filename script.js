@@ -39,7 +39,7 @@ const createGrid = (gridSize) => {
 // Create a grid with the size of the range slider
 const createGridSize = () => {
     let gridSize = parseInt(rangeSlider.value);
-    gridSize = Math.min(Math.max(gridSize, 2), 64);
+    gridSize = Math.min(Math.max(gridSize, 2), 32);
     createGrid(gridSize);
 };
 
