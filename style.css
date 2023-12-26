@@ -128,7 +128,7 @@ input[type="color"] {
     border-radius: 90%;
 }
 
-.btn {
+.btn, .clear-btn {
     font-weight: 700;
     padding: 0.5rem;
     border-radius: 5px;
@@ -141,12 +141,18 @@ input[type="color"] {
     min-width: 5rem;
 }
 
+.btn.active {
+    transform: scale(1.05);
+    outline: 2px solid var(--buttons);
+    background-color: var(--secondary-buttons);
+}
+
 .btn:hover {
     transform: scale(0.98);
     border: none;
 }
 
-.btn:active {
+.btn:active, .clear-btn:active {
     transition: transform 0.05s ease-in-out;
     transform: scale(1.05);
     outline: 2px solid var(--buttons);
